@@ -1,0 +1,147 @@
+/* static/css/style.css */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.strength-meter {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.strength-bar {
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.strength-very-weak { background-color: #dc3545; width: 20%; }
+.strength-weak { background-color: #fd7e14; width: 40%; }
+.strength-medium { background-color: #ffc107; width: 60%; }
+.strength-strong { background-color: #20c997; width: 80%; }
+.strength-very-strong { background-color: #198754; width: 100%; }
+
+.feature-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+}
+
+.feature-good {
+    border-left-color: #198754;
+    background-color: #d4edda;
+}
+
+.feature-bad {
+    border-left-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+.feature-warning {
+    border-left-color: #ffc107;
+    background-color: #fff3cd;
+}
+
+.badge-strength {
+    font-size: 0.9em;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.training-log {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.log-entry {
+    padding: 5px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.log-entry:last-child {
+    border-bottom: none;
+}
+
+.tip-item {
+    padding: 15px;
+    margin: 10px 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+.tip-item h5 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.tip-item p {
+    margin-bottom: 0;
+    opacity: 0.9;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+    0% { background-position: 1rem 0; }
+    100% { background-position: 0 0; }
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#passwordInput {
+    border-radius: 8px 0 0 8px;
+}
+
+#togglePassword {
+    border-radius: 0 8px 8px 0;
+}
