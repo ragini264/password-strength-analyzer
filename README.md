@@ -37,6 +37,24 @@ Machine Learning project that classifies password strength into 5 levels with 94
 git clone https://github.com/ragini264/password-strength-analyzer.git
 cd password-strength-analyzer
 
+### 2. Install Required Packages
+Open Command Prompt/Terminal in the project folder and run:
+
+bash
+pip install flask pandas numpy scikit-learn joblib
+
+###3. Run the Main Application
+bash
+python password_analyzer.py
+
+### 4. Open Your Browser
+After running the command, you will see:
+
+🔐 PASSWORD STRENGTH ANALYZER
+============================================================
+Starting server...
+Open your web browser and go to: http://localhost:5000
+
 
 
 
