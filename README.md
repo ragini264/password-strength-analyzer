@@ -23,6 +23,20 @@ Machine Learning project that classifies password strength into 5 levels with 94
 
 <img width="977" height="621" alt="image" src="https://github.com/user-attachments/assets/a296e5f0-7009-467b-a71e-072018e8c2ba" />
 
+### How to Run This Project (Using password_analyzer.py)
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package installer)
+
+### Step-by-Step Instructions
+
+#### 1. Download the Project
+** Clone with Git**
+```bash
+git clone https://github.com/ragini264/password-strength-analyzer.git
+cd password-strength-analyzer
+
 
 
 
